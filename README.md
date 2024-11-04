@@ -23,18 +23,20 @@ Nesta aplicação, utilizamos a biblioteca Streamlit para oferecer uma interface
 Siga os passos abaixo para rodar o projeto em seu ambiente local:
 
 1. **Clone este repositório**:
+   ```bash
    git clone git@github.com:eliasvmachado/una-psc-monitoramento-de-ameacas.git
   
-2. **Instale as dependências:** Certifique-se de que você está no ambiente virtual correto e execute:
+3. **Instale as dependências:** Certifique-se de que você está no ambiente virtual correto e execute:
    ```bash
    pip install -r requirements.txt
    
 4. **Execute o aplicativo Streamlit:** Para iniciar a aplicação de monitoramento, execute:
+   ```bash
    streamlit run app-streamlit.py
-caso não abra automaticamente, acesse http://localhost:8501 para visualizar a aplicação.
+> caso não abra automaticamente, acesse http://localhost:8501 para visualizar a aplicação.
 
 ## 📈 Exemplo de Uso
 Ao iniciar a aplicação, clique em "Iniciar Monitoramento" para começar a análise em tempo real. A aplicação exibirá se cada transação é normal ou fraudulenta, atualizará os contadores de cada tipo e gerará gráficos que mostram a proporção entre transações normais e fraudulentas detectadas.
 
-by elias victor
+> by elias victor
 
